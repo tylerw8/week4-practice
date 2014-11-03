@@ -1,0 +1,93 @@
+/*Tyler Waite's Assignment Week 4 Style Sheet*/
+* { margin: 0;
+    padding: 0;}
+* {font-family: sans-serif;
+   font-size: 100%;}
+
+body {background: white;
+      font-size: 1.4rem;}
+
+article {
+  align-self: left;
+}
+
+header {
+  width: 1475px;
+  height: 200px;
+  background: #ffffff;}
+
+header h1 {color: #8268ae;
+          font-size: 4rem;
+          text-align: center;
+          padding-top: 40px;
+          padding-bottom: 28px;}
+
+header nav{width:100%;
+           background: #6b509f;
+            }
+
+header nav li {
+          vertical-align: bottom;
+          display: inline-block;
+          width: 170px;
+          padding: 1rem;
+          margin-right: 0px;
+          margin-left: 0px;
+          background: #8268ae;
+          font-size: 1.8 rem;
+          text-align: center;}
+
+header li:first-of-type {border-left: none;}
+
+a:link, a:visited {color:white;
+        text-decoration: none;}
+
+#main {width:1475px;
+       height: 864px;
+       background: #e2e5eb;
+}
+
+#left-nav {
+  border: 0px;
+  background: #c0b2d6;
+  width: 384px;
+  height: 865px;
+  align-content: center;
+  float: left;
+}
+
+#left-nav ul{
+          padding: 100px;
+          list-style-type: none;
+            }
+
+#left-nav li{
+          font-size: 2rem;
+          padding: 1rem;
+          }
+
+#photo {position: relative; top:144px; left: 270px;}
+
+#photo img {align: center;}
+
+#photo figcaption {font-size: 1rem;
+                  width: 60rem;
+                  padding-top: 30px;
+                  word-wrap: normal;
+                  text-align: center;
+            }
+
+footer {width: 1728px;
+        height: 200px;
+        background: #ffffff;
+        align-content: center;}
+
+footer ul {margin-top: 50px;
+          margin-left: 50%;}
+
+footer li {display: inline;
+           list-style-type: none;}
+
+footer img {padding: 20px;
+            width: 45px;
+            height: 45px;}
