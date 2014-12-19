@@ -11,6 +11,21 @@ article {
   align-self: left;
 }
 
+.offscreen {
+  position:absolute;
+  left: -10000px;
+  top:auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.offscreen:focus {
+  position:static;
+  widows: auto;
+  height: auto;
+}
+
 header {
   width: 1475px;
   height: 200px;
